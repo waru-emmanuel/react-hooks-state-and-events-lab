@@ -9,7 +9,7 @@ function Item({ name, category }) {
   };
 
   let buttonText = inCart ? "Remove" : "Add";
-  const buttonClass = inCart ? "remove" : "add";
+  const buttonClass = inCart ? "remove" : "add"; // this  is a class name that will help once you click on the button, help define color change for remove/add text once the button is pressed
   const itemClass = inCart ? "in-cart" : "";
   return (
     <li className={itemClass}>

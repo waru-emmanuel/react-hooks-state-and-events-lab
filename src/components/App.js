@@ -14,6 +14,7 @@ function App() {
   // Determine the class name for the app container based on the dark mode state
   const appClass = isDarkMode ? "light" : "dark";
   const buttonText = isDarkMode ? "light mode" : "dark mode";
+// light mode will be light and dark mode will be dark, the text will change name based on the mode you have chosen
 
   return (
     <div className={`App ${appClass}`} data-testid="app-container">
