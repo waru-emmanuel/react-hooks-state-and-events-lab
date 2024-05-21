@@ -103,7 +103,7 @@ header button {
 
 .Items button.remove {
   background-color: var(--magenta);
-  color: white;
+  color:purple;
 }
 
 .Items li .category {
